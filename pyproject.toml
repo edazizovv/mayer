@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mayer"
+version = "0.0.1"
+description = "Portfolio weights nn model"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mayer"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
